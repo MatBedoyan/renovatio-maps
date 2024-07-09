@@ -1,0 +1,148 @@
+/* ** SOLO AGREGA BORDES MARCADORES PARA VER LO QUE OCUPA CADA ELEMENTO ** */
+
+/* GLOBAL SETTINGS */
+
+.max-w-all {
+	outline: 2px solid #f00;
+}
+
+/* /GLOBAL SETTINGS */
+/* -----------------MEDIA QUERY DESKTOP--------------- */
+@media screen and (min-width: 768px) { /* Hasta 576px Móviles, hasta 768px Tabletas, hasta 992px para Portátiles, hasta 1200px Escritorio, + ExtraWide. */
+	/* GLOBAL SETTINGS Desktop */
+
+	.max-w-all {
+		outline: 2px dashed #f00;
+	}
+
+	/* /GLOBAL SETTINGS Desktop */
+	/* NAV Desktop -- Barra de navegación (por fuera del Header) */
+
+
+	#navbar {
+		outline: 2px solid #d73;
+	}
+	.navbar__container {
+		outline: 2px solid #09c; /* Usa el borde del ".max-width-all". Si esto se activa lo sobreescribe y activa éste. */
+	}
+	.navbar-container__logo {
+		outline: 2px solid #0f0;
+	}
+	.logo { 
+		outline: 2px solid #ddf;
+	}
+	.navbar-container__main-menu {
+		outline: 2px solid #ff0;
+	}
+	.main-menu {
+		outline: 2px solid #00f;
+	}
+	.main-menu__item {
+		outline: 2px solid #f00;
+	}
+	.item__link {
+		outline: 2px solid #0f0;
+	}
+
+
+	/* /NAV Desktop -- Barra de navegación (por fuera del Header) */
+	/*-------------------------------------------------------------------*/
+	/* HEADER Desktop -- Encabezado de la página de inicio del sitio */
+
+	
+	#header {
+		outline: 2px solid #0f0;
+	}
+    .header__container {
+		outline: 2px solid #ff0;
+	}
+    .header-container__title {
+		outline: 2px solid #00f;
+	}
+    .header-container__description {
+		outline: 2px solid #f00;
+	}
+
+
+	/* /HEADER Desktop -- Encabezado de la página de inicio del sitio */
+    /*-------------------------------------------------------------------*/
+	/* MAIN Desktop -- Sección principal que describe características. */
+
+	
+	#main {
+		border: 2px solid #f0f;
+	}
+	/*.main__container {
+		outline: 2px dashed #900;
+	}*/
+	.main-container__section {
+		outline: 2px dotted #0c2;
+	}
+	.section__content {
+		outline: 2px solid #f00;
+	}
+	.content__title {
+		outline: 2px solid #fb0;
+	}
+	.content__text {
+		outline: 2px solid #0cd;
+	}
+	.content__button {
+		outline: 2px solid #f0f;
+	}
+	.section__img {
+		outline: 2px solid #00f;
+	}
+
+	/* /MAIN Desktop -- Encabezado de la página de inicio del sitio */
+    /*-------------------------------------------------------------------*/
+	/* FOOTER Desktop -- Pie de página, el mismo para todas. */
+
+	.footer__container {
+		outline: 2px solid #0c0;
+	}
+	.footer-container__r-logo-sq {
+		outline: 2px solid #f00;
+	}
+	.footer-container__media-title {
+		outline: 2px solid #f00;
+	}
+	.footer-container__media-icons {
+		outline: 2px solid #ff0;
+	}
+	.footer-container__copyright {
+		outline: 2px solid #07f;
+	}
+	.r-logo-sq {
+		outline: 2px solid #0ff;
+	}
+	.media-icon {
+		outline: 2px dashed #0ff;
+	}
+	.footer-container__main-menu {
+		outline: 2px solid #ff0;
+	}
+	.footer-menu {
+		outline: 2px solid #00f;
+	}
+	.footer-menu__item {
+		outline: 2px solid #f00;
+	}
+	.footer-item__link {
+		outline: 2px solid #0f0;
+	}
+
+	/* /FOOTER Desktop -- Pie de página, el mismo para todas. */
+    /*-------------------------------------------------------------------*/
+}
+
+/* ---------------/ MEDIA QUERY DESKTOP--------------- */
+
+/* ================== / HOME PAGE ===================== */
+/* ______________________________________________________ */
+/* =================== GALLERY ===================== */
+
+
+
+/* ================== / GALLERY ===================== */
+
