@@ -309,6 +309,26 @@ h1 {
 	.footer-container__copyright {
 		margin-right: 6rem;
 	}
+	.footer-container__main-menu {
+		padding: .6rem 5rem .6rem 0;
+	}
+	.footer-menu {
+		list-style: none;
+	}
+	/*.footer-menu__item {
+		display: block;
+	}*/
+	.footer-item__link {
+		display: block;
+		text-decoration: none;
+		color: var(--grey);
+		font-size: 1.1rem;
+		padding: .5rem 1.4rem;
+	}
+	.footer-item__link:hover {
+		text-decoration: underline;
+		color: var(--white);
+	}
 	.media-icon {
 		color: var(--light-color);
 		text-decoration: none;
