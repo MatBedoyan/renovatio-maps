@@ -1,135 +1,175 @@
-/* ** SOLO AGREGA BORDES MARCADORES PARA VER LO QUE OCUPA CADA ELEMENTO ** */
+/* ** SOLO AGREGA BORDES PARA VER TAMAÑOS DE ELEMENTOS ** */
 
 /* GLOBAL SETTINGS */
 
 .max-w-all {
-	outline: 2px solid #f00;
+	border: 3px solid #f00;
 }
 
 /* /GLOBAL SETTINGS */
+/* NAVBAR (por fuera y arriba del Header) */
+
+.navbar {
+	border: 3px solid #0cf;
+}
+.navbar-wrapper {
+	border: 3px solid #ff0;
+}
+.navbar-sticky {
+	border: 3px solid #0cf;
+}
+.navbar__logo {
+	border: 3px solid #0d0;
+}
+.logo {
+	border: 3px solid #f00;
+}
+.navbar__btn-toggle-menu {
+	border: 3px solid #888;
+}
+.btn-open, .btn-close {
+	border: 3px solid #f0f;
+}
+.navbar__main-menu-opened {
+	border: 3px solid #f00;
+}
+.navbar__main-menu {
+	border: 3px solid #05f;
+}
+.main-menu__items {
+	border: 3px solid #0f0;
+}
+.item__links {
+	border: 3px solid #ff0;
+}
+.link {
+	border: 3px solid #d73;
+}
+.link:hover {
+	border: 3px solid #d73;
+}
+
+/* /NAVBAR (por fuera y arriba del Header) */
+/* HEADER */
+
+.header {
+	border: 3px solid #0f0;
+}
+.header__container {
+	border: 3px solid #ff0;
+}
+.header-container__title {
+	border: 3px solid #00f;
+}
+.header-container__description {
+	border: 3px solid #d73;
+}
+
+/* /HEADER */
+/* MAIN */
+
+.main {
+	border: 3px solid #f0f;
+}
+.main__container {
+	border: 3px solid #0b0;
+}
+.main-section__container {
+	border: 2px dotted #f00;
+}
+.section__content {
+	border: 3px solid #d73;
+}
+.section__img {
+	border: 3px solid #f00;
+}
+.img {
+	outline: 3px solid #00f;
+}
+.content__title {
+	border: 3px solid #fc0;
+}
+.content__text {
+	border: 3px solid #0cd;
+}
+.content__button {
+	border: 3px solid #f0f;
+}
+.section__carrousel {
+	border: 3px solid #d73;
+}
+.carrousel__item {
+	border: 3px solid #ff0;
+}
+.carrousel__img {
+	border: 3px solid #0f0;
+}
+.carrousel__arrow-button {
+	border: 3px solid #f0f;
+}
+
+/* /MAIN */
+
 /* -----------------MEDIA QUERY DESKTOP--------------- */
-@media screen and (min-width: 768px) { /* Hasta 576px Móviles, hasta 768px Tabletas, hasta 992px para Portátiles, hasta 1200px Escritorio, + ExtraWide. */
-	/* GLOBAL SETTINGS Desktop */
-
-	.max-w-all {
-		outline: 2px dashed #f00;
-	}
-
-	/* /GLOBAL SETTINGS Desktop */
-	/* NAV Desktop -- Barra de navegación (por fuera del Header) */
-
-
-	#navbar {
-		outline: 2px solid #d73;
-	}
-	.navbar__container {
-		outline: 2px solid #09c; /* Usa el borde del ".max-width-all". Si esto se activa lo sobreescribe y activa éste. */
-	}
-	.navbar-container__logo {
-		outline: 2px solid #0f0;
-	}
-	.logo { 
-		outline: 2px solid #ddf;
-	}
-	.navbar-container__main-menu {
-		outline: 2px solid #ff0;
-	}
-	.main-menu {
-		outline: 2px solid #00f;
-	}
-	.main-menu__item {
-		outline: 2px solid #f00;
-	}
-	.item__link {
-		outline: 2px solid #0f0;
-	}
-
-
-	/* /NAV Desktop -- Barra de navegación (por fuera del Header) */
-	/*-------------------------------------------------------------------*/
-	/* HEADER Desktop -- Encabezado de la página de inicio del sitio */
+@media (min-width: 48rem) { 
+	
 
 	
-	#header {
-		outline: 2px solid #0f0;
+	.gallery-container__item {
+		border: 3px solid #f00;
 	}
-    .header__container {
-		outline: 2px solid #ff0;
+	.item__img-link {
+		border: 3px solid #ff0;
 	}
-    .header-container__title {
-		outline: 2px solid #00f;
+	.item__img-link:hover {
+		border: 3px solid #ff0;
 	}
-    .header-container__description {
-		outline: 2px solid #f00;
+	.img-link__img {
+		border: 3px solid #0f0;
 	}
-
-
-	/* /HEADER Desktop -- Encabezado de la página de inicio del sitio */
-    /*-------------------------------------------------------------------*/
-	/* MAIN Desktop -- Sección principal que describe características. */
-
-	
-	#main {
-		border: 2px solid #f0f;
-	}
-	/*.main__container {
-		outline: 2px dashed #900;
-	}*/
-	.main-container__section {
-		outline: 2px dotted #0c2;
-	}
-	.section__content {
-		outline: 2px solid #f00;
-	}
-	.content__title {
-		outline: 2px solid #fb0;
-	}
-	.content__text {
-		outline: 2px solid #0cd;
-	}
-	.content__button {
-		outline: 2px solid #f0f;
-	}
-	.section__img {
-		outline: 2px solid #00f;
+	.item__title {
+		border: 3px solid #00f;
 	}
 
-	/* /MAIN Desktop -- Encabezado de la página de inicio del sitio */
+    /* /MAIN Desktop -- Galería. */
     /*-------------------------------------------------------------------*/
 	/* FOOTER Desktop -- Pie de página, el mismo para todas. */
-
+	
+	.footer-wrapper {
+		border: 3px solid #0c0;
+	}
+	.footer__r-logo-sq {
+		border: 3px solid #f00;
+	}
 	.footer__container {
-		outline: 2px solid #0c0;
+		border: 3px solid #d73;
 	}
-	.footer-container__r-logo-sq {
-		outline: 2px solid #f00;
-	}
-	.footer-container__media-title {
-		outline: 2px solid #f00;
+	/*.footer-container__media-title {
+		border: 3px solid #f00;
+	}*/
+	.footer-container__footer-menu {
+		border: 3px solid #f0f;
 	}
 	.footer-container__media-icons {
-		outline: 2px solid #ff0;
+		border: 3px solid #ff0;
 	}
 	.footer-container__copyright {
-		outline: 2px solid #07f;
+		border: 3px solid #07f;
 	}
 	.r-logo-sq {
-		outline: 2px solid #0ff;
+		border: 3px solid #0ff;
 	}
 	.media-icon {
-		outline: 2px dashed #0ff;
-	}
-	.footer-container__main-menu {
-		outline: 2px solid #ff0;
+		border: 2px dashed #0ff;
 	}
 	.footer-menu {
-		outline: 2px solid #00f;
+		border: 3px solid #00f;
 	}
 	.footer-menu__item {
-		outline: 2px solid #f00;
+		border: 3px solid #f00;
 	}
 	.footer-item__link {
-		outline: 2px solid #0f0;
+		border: 3px solid #0f0;
 	}
 
 	/* /FOOTER Desktop -- Pie de página, el mismo para todas. */
