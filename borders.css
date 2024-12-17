@@ -116,19 +116,19 @@
 
 	
 	.gallery-container__item {
-		border: 3px solid #f00;
+		border: 3px solid #d73;
 	}
 	.item__img-link {
-		border: 3px solid #ff0;
+		border: 3px solid #00f;
 	}
 	.item__img-link:hover {
-		border: 3px solid #ff0;
+		border: 3px solid #00f;
 	}
 	.img-link__img {
 		border: 3px solid #0f0;
 	}
 	.item__title {
-		border: 3px solid #00f;
+		border: 3px solid #fc0;
 	}
 
     /* /MAIN Desktop -- Galería. */
